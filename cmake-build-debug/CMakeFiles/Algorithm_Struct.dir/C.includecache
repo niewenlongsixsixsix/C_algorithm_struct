@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Cproject/Algorithm_Struct/list/list_array.h
+
+E:/Cproject/Algorithm_Struct/main.c
+stdio.h
+-
+list/list_array.h
+E:/Cproject/Algorithm_Struct/list/list_array.h
+
