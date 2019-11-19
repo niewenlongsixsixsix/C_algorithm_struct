@@ -34,19 +34,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "E:\codesoft\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\CodeSoft\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "E:\codesoft\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\CodeSoft\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Cproject\Algorithm_Struct
+CMAKE_SOURCE_DIR = D:\CProject\Algorithm_Struct
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Cproject\Algorithm_Struct\cmake-build-debug
+CMAKE_BINARY_DIR = D:\CProject\Algorithm_Struct\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -73,14 +73,14 @@ preinstall:
 CMakeFiles/Algorithm_Struct.dir/all:
 	$(MAKE) -f CMakeFiles\Algorithm_Struct.dir\build.make CMakeFiles/Algorithm_Struct.dir/depend
 	$(MAKE) -f CMakeFiles\Algorithm_Struct.dir\build.make CMakeFiles/Algorithm_Struct.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cproject\Algorithm_Struct\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target Algorithm_Struct"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CProject\Algorithm_Struct\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target Algorithm_Struct"
 .PHONY : CMakeFiles/Algorithm_Struct.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Algorithm_Struct.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cproject\Algorithm_Struct\cmake-build-debug\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CProject\Algorithm_Struct\cmake-build-debug\CMakeFiles 4
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Algorithm_Struct.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cproject\Algorithm_Struct\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CProject\Algorithm_Struct\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Algorithm_Struct.dir/rule
 
 # Convenience name for target.

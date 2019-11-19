@@ -1,15 +1,20 @@
-//
-// Created by Administrator on 2019/11/12.
-//
 #include <stdio.h>
-#include "list/h/list_array.h"
+#include "list/h/list_single_linked.h"
 
-int main() {
-    List list;
-    InitList(&list);
-    ListInsert(&list, 1, 110);
-    ListInsert(&list, 2, 120);
-    int b = ListLocateElem(list, 120);
-    printf("%d\n", b);
+int main(void){
+    LinkNode *p = LinkedListInit();
+//    for (int i = 1; i <= 10; ++i) {
+//        LinkedListAdd(p, i);
+//    }
+    int a;
+    LinkedListLength(p, &a);
+    printf("the linked list length is %d\n", a);
+    int b = LinkedListInsert(p, 1, 100);
+    LinkedListLength(p, &a);
+    printf("insert after length is %d %d\n", a, b);
+    while (p->next){
+        printf("%d ", p->next->data);
+        p = p->next;
+    }
     return 0;
 }

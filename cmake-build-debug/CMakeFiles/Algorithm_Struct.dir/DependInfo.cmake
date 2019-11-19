@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "E:/Cproject/Algorithm_Struct/list/c/list_array.c" "E:/Cproject/Algorithm_Struct/cmake-build-debug/CMakeFiles/Algorithm_Struct.dir/list/c/list_array.c.obj"
-  "E:/Cproject/Algorithm_Struct/list/c/list_single_linked.c" "E:/Cproject/Algorithm_Struct/cmake-build-debug/CMakeFiles/Algorithm_Struct.dir/list/c/list_single_linked.c.obj"
-  "E:/Cproject/Algorithm_Struct/main.c" "E:/Cproject/Algorithm_Struct/cmake-build-debug/CMakeFiles/Algorithm_Struct.dir/main.c.obj"
+  "D:/CProject/Algorithm_Struct/list/c/list_array.c" "D:/CProject/Algorithm_Struct/cmake-build-debug/CMakeFiles/Algorithm_Struct.dir/list/c/list_array.c.obj"
+  "D:/CProject/Algorithm_Struct/list/c/list_single_linked.c" "D:/CProject/Algorithm_Struct/cmake-build-debug/CMakeFiles/Algorithm_Struct.dir/list/c/list_single_linked.c.obj"
+  "D:/CProject/Algorithm_Struct/main.c" "D:/CProject/Algorithm_Struct/cmake-build-debug/CMakeFiles/Algorithm_Struct.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

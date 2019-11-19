@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "E:\codesoft\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\CodeSoft\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "E:\codesoft\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\CodeSoft\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Cproject\Algorithm_Struct
+CMAKE_SOURCE_DIR = D:\CProject\Algorithm_Struct
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Cproject\Algorithm_Struct\cmake-build-debug
+CMAKE_BINARY_DIR = D:\CProject\Algorithm_Struct\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Algorithm_Struct.dir/depend.make
@@ -58,42 +58,42 @@ include CMakeFiles/Algorithm_Struct.dir/flags.make
 
 CMakeFiles/Algorithm_Struct.dir/main.c.obj: CMakeFiles/Algorithm_Struct.dir/flags.make
 CMakeFiles/Algorithm_Struct.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Cproject\Algorithm_Struct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Algorithm_Struct.dir/main.c.obj"
-	C:\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Algorithm_Struct.dir\main.c.obj   -c E:\Cproject\Algorithm_Struct\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CProject\Algorithm_Struct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Algorithm_Struct.dir/main.c.obj"
+	D:\CodeSoft\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Algorithm_Struct.dir\main.c.obj   -c D:\CProject\Algorithm_Struct\main.c
 
 CMakeFiles/Algorithm_Struct.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Algorithm_Struct.dir/main.c.i"
-	C:\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Cproject\Algorithm_Struct\main.c > CMakeFiles\Algorithm_Struct.dir\main.c.i
+	D:\CodeSoft\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CProject\Algorithm_Struct\main.c > CMakeFiles\Algorithm_Struct.dir\main.c.i
 
 CMakeFiles/Algorithm_Struct.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Algorithm_Struct.dir/main.c.s"
-	C:\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Cproject\Algorithm_Struct\main.c -o CMakeFiles\Algorithm_Struct.dir\main.c.s
+	D:\CodeSoft\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CProject\Algorithm_Struct\main.c -o CMakeFiles\Algorithm_Struct.dir\main.c.s
 
 CMakeFiles/Algorithm_Struct.dir/list/c/list_array.c.obj: CMakeFiles/Algorithm_Struct.dir/flags.make
 CMakeFiles/Algorithm_Struct.dir/list/c/list_array.c.obj: ../list/c/list_array.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Cproject\Algorithm_Struct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Algorithm_Struct.dir/list/c/list_array.c.obj"
-	C:\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Algorithm_Struct.dir\list\c\list_array.c.obj   -c E:\Cproject\Algorithm_Struct\list\c\list_array.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CProject\Algorithm_Struct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Algorithm_Struct.dir/list/c/list_array.c.obj"
+	D:\CodeSoft\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Algorithm_Struct.dir\list\c\list_array.c.obj   -c D:\CProject\Algorithm_Struct\list\c\list_array.c
 
 CMakeFiles/Algorithm_Struct.dir/list/c/list_array.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Algorithm_Struct.dir/list/c/list_array.c.i"
-	C:\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Cproject\Algorithm_Struct\list\c\list_array.c > CMakeFiles\Algorithm_Struct.dir\list\c\list_array.c.i
+	D:\CodeSoft\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CProject\Algorithm_Struct\list\c\list_array.c > CMakeFiles\Algorithm_Struct.dir\list\c\list_array.c.i
 
 CMakeFiles/Algorithm_Struct.dir/list/c/list_array.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Algorithm_Struct.dir/list/c/list_array.c.s"
-	C:\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Cproject\Algorithm_Struct\list\c\list_array.c -o CMakeFiles\Algorithm_Struct.dir\list\c\list_array.c.s
+	D:\CodeSoft\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CProject\Algorithm_Struct\list\c\list_array.c -o CMakeFiles\Algorithm_Struct.dir\list\c\list_array.c.s
 
 CMakeFiles/Algorithm_Struct.dir/list/c/list_single_linked.c.obj: CMakeFiles/Algorithm_Struct.dir/flags.make
 CMakeFiles/Algorithm_Struct.dir/list/c/list_single_linked.c.obj: ../list/c/list_single_linked.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Cproject\Algorithm_Struct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Algorithm_Struct.dir/list/c/list_single_linked.c.obj"
-	C:\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Algorithm_Struct.dir\list\c\list_single_linked.c.obj   -c E:\Cproject\Algorithm_Struct\list\c\list_single_linked.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CProject\Algorithm_Struct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Algorithm_Struct.dir/list/c/list_single_linked.c.obj"
+	D:\CodeSoft\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Algorithm_Struct.dir\list\c\list_single_linked.c.obj   -c D:\CProject\Algorithm_Struct\list\c\list_single_linked.c
 
 CMakeFiles/Algorithm_Struct.dir/list/c/list_single_linked.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Algorithm_Struct.dir/list/c/list_single_linked.c.i"
-	C:\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Cproject\Algorithm_Struct\list\c\list_single_linked.c > CMakeFiles\Algorithm_Struct.dir\list\c\list_single_linked.c.i
+	D:\CodeSoft\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CProject\Algorithm_Struct\list\c\list_single_linked.c > CMakeFiles\Algorithm_Struct.dir\list\c\list_single_linked.c.i
 
 CMakeFiles/Algorithm_Struct.dir/list/c/list_single_linked.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Algorithm_Struct.dir/list/c/list_single_linked.c.s"
-	C:\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Cproject\Algorithm_Struct\list\c\list_single_linked.c -o CMakeFiles\Algorithm_Struct.dir\list\c\list_single_linked.c.s
+	D:\CodeSoft\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CProject\Algorithm_Struct\list\c\list_single_linked.c -o CMakeFiles\Algorithm_Struct.dir\list\c\list_single_linked.c.s
 
 # Object files for target Algorithm_Struct
 Algorithm_Struct_OBJECTS = \
@@ -111,7 +111,7 @@ Algorithm_Struct.exe: CMakeFiles/Algorithm_Struct.dir/build.make
 Algorithm_Struct.exe: CMakeFiles/Algorithm_Struct.dir/linklibs.rsp
 Algorithm_Struct.exe: CMakeFiles/Algorithm_Struct.dir/objects1.rsp
 Algorithm_Struct.exe: CMakeFiles/Algorithm_Struct.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Cproject\Algorithm_Struct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Algorithm_Struct.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\CProject\Algorithm_Struct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Algorithm_Struct.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Algorithm_Struct.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -124,6 +124,6 @@ CMakeFiles/Algorithm_Struct.dir/clean:
 .PHONY : CMakeFiles/Algorithm_Struct.dir/clean
 
 CMakeFiles/Algorithm_Struct.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\Cproject\Algorithm_Struct E:\Cproject\Algorithm_Struct E:\Cproject\Algorithm_Struct\cmake-build-debug E:\Cproject\Algorithm_Struct\cmake-build-debug E:\Cproject\Algorithm_Struct\cmake-build-debug\CMakeFiles\Algorithm_Struct.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\CProject\Algorithm_Struct D:\CProject\Algorithm_Struct D:\CProject\Algorithm_Struct\cmake-build-debug D:\CProject\Algorithm_Struct\cmake-build-debug D:\CProject\Algorithm_Struct\cmake-build-debug\CMakeFiles\Algorithm_Struct.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Algorithm_Struct.dir/depend
 

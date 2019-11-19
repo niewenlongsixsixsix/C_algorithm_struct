@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-E:/Cproject/Algorithm_Struct/list/list_array.h
+D:/CProject/Algorithm_Struct/list/h/list_single_linked.h
 
-E:/Cproject/Algorithm_Struct/main.c
+D:/CProject/Algorithm_Struct/main.c
 stdio.h
 -
-list/list_array.h
-E:/Cproject/Algorithm_Struct/list/list_array.h
+list/h/list_single_linked.h
+D:/CProject/Algorithm_Struct/list/h/list_single_linked.h
 
