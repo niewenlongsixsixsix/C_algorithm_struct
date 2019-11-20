@@ -27,3 +27,5 @@ LinkNode* LinkedListInit();
 Status LinkedListLength(LinkNode *headNode, int *e);
 Status LinkedListAdd(LinkNode *headNode, ElemType e);
 Status LinkedListInsert(LinkNode *headNode, int position, ElemType e);
+Status LinkedDelete(LinkNode *headNode, int n, ElemType *e);
+Status LinkedClear(LinkNode *headNode);
