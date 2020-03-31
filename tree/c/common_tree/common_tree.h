@@ -10,6 +10,11 @@
 #define SUCCESS 1
 #define FAILURE 0
 
+#define BROTHER_INSERT_TYPE 1
+#define CHILD_INSERT_TYPE 0
+
+typedef int Status;
+
 typedef  char *element_type;
 
 typedef struct CTreeNode{
@@ -18,3 +23,9 @@ typedef struct CTreeNode{
     struct node *next_brother; //指向自己的下一个兄弟节点
 }Node, *PtrNode;
 
+
+// 初始化树
+PtrNode init_common_tree();
+
+// 插入一个树节点
+Status insert_node(PtrNode n, element_type data, int NodeInsertType)
