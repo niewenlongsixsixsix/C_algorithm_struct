@@ -34,30 +34,30 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\CodeSoft\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "E:\codesoft\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\CodeSoft\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "E:\codesoft\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\CProject\Algorithm_Struct
+CMAKE_SOURCE_DIR = E:\Cproject\C_algorithm_struct
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\CProject\Algorithm_Struct\cmake-build-debug
+CMAKE_BINARY_DIR = E:\Cproject\C_algorithm_struct\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Algorithm_Struct.dir/all
+all: CMakeFiles/C_algorithm_struct.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Algorithm_Struct.dir/clean
+clean: CMakeFiles/C_algorithm_struct.dir/clean
 
 .PHONY : clean
 
@@ -67,31 +67,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/Algorithm_Struct.dir
+# Target rules for target CMakeFiles/C_algorithm_struct.dir
 
 # All Build rule for target.
-CMakeFiles/Algorithm_Struct.dir/all:
-	$(MAKE) -f CMakeFiles\Algorithm_Struct.dir\build.make CMakeFiles/Algorithm_Struct.dir/depend
-	$(MAKE) -f CMakeFiles\Algorithm_Struct.dir\build.make CMakeFiles/Algorithm_Struct.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CProject\Algorithm_Struct\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target Algorithm_Struct"
-.PHONY : CMakeFiles/Algorithm_Struct.dir/all
+CMakeFiles/C_algorithm_struct.dir/all:
+	$(MAKE) -f CMakeFiles\C_algorithm_struct.dir\build.make CMakeFiles/C_algorithm_struct.dir/depend
+	$(MAKE) -f CMakeFiles\C_algorithm_struct.dir\build.make CMakeFiles/C_algorithm_struct.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cproject\C_algorithm_struct\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target C_algorithm_struct"
+.PHONY : CMakeFiles/C_algorithm_struct.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Algorithm_Struct.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CProject\Algorithm_Struct\cmake-build-debug\CMakeFiles 4
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Algorithm_Struct.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CProject\Algorithm_Struct\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Algorithm_Struct.dir/rule
+CMakeFiles/C_algorithm_struct.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cproject\C_algorithm_struct\cmake-build-debug\CMakeFiles 4
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/C_algorithm_struct.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cproject\C_algorithm_struct\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/C_algorithm_struct.dir/rule
 
 # Convenience name for target.
-Algorithm_Struct: CMakeFiles/Algorithm_Struct.dir/rule
+C_algorithm_struct: CMakeFiles/C_algorithm_struct.dir/rule
 
-.PHONY : Algorithm_Struct
+.PHONY : C_algorithm_struct
 
 # clean rule for target.
-CMakeFiles/Algorithm_Struct.dir/clean:
-	$(MAKE) -f CMakeFiles\Algorithm_Struct.dir\build.make CMakeFiles/Algorithm_Struct.dir/clean
-.PHONY : CMakeFiles/Algorithm_Struct.dir/clean
+CMakeFiles/C_algorithm_struct.dir/clean:
+	$(MAKE) -f CMakeFiles\C_algorithm_struct.dir\build.make CMakeFiles/C_algorithm_struct.dir/clean
+.PHONY : CMakeFiles/C_algorithm_struct.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

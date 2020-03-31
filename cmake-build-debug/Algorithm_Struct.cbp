@@ -8,88 +8,88 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/CProject/Algorithm_Struct/cmake-build-debug"/>
+				<Option working_dir="E:/Cproject/C_algorithm_struct/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/CodeSoft/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CProject/Algorithm_Struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/CodeSoft/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CProject/Algorithm_Struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/CodeSoft/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CProject/Algorithm_Struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/CodeSoft/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CProject/Algorithm_Struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/Cproject/C_algorithm_struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/Cproject/C_algorithm_struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/Cproject/C_algorithm_struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/Cproject/C_algorithm_struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Algorithm_Struct">
-				<Option output="D:/CProject/Algorithm_Struct/cmake-build-debug/Algorithm_Struct.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/CProject/Algorithm_Struct/cmake-build-debug"/>
+			<Target title="C_algorithm_struct">
+				<Option output="E:/Cproject/C_algorithm_struct/cmake-build-debug/C_algorithm_struct.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cproject/C_algorithm_struct/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/CodeSoft/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/CodeSoft/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/CodeSoft/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/5.4.0/include"/>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/5.4.0/include-fixed"/>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/5.4.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/CodeSoft/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CProject/Algorithm_Struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algorithm_Struct"/>
-					<CompileFile command="D:/CodeSoft/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CProject/Algorithm_Struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/CodeSoft/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CProject/Algorithm_Struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/CodeSoft/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CProject/Algorithm_Struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/Cproject/C_algorithm_struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_algorithm_struct"/>
+					<CompileFile command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/Cproject/C_algorithm_struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/Cproject/C_algorithm_struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/Cproject/C_algorithm_struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Algorithm_Struct/fast">
-				<Option output="D:/CProject/Algorithm_Struct/cmake-build-debug/Algorithm_Struct.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/CProject/Algorithm_Struct/cmake-build-debug"/>
+			<Target title="C_algorithm_struct/fast">
+				<Option output="E:/Cproject/C_algorithm_struct/cmake-build-debug/C_algorithm_struct.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cproject/C_algorithm_struct/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/CodeSoft/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/CodeSoft/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/CodeSoft/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/5.4.0/include"/>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/5.4.0/include-fixed"/>
+					<Add directory="C:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/5.4.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/CodeSoft/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CProject/Algorithm_Struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algorithm_Struct/fast"/>
-					<CompileFile command="D:/CodeSoft/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CProject/Algorithm_Struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/CodeSoft/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CProject/Algorithm_Struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/CodeSoft/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CProject/Algorithm_Struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/Cproject/C_algorithm_struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_algorithm_struct/fast"/>
+					<CompileFile command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/Cproject/C_algorithm_struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/Cproject/C_algorithm_struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/Cproject/C_algorithm_struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/CProject/Algorithm_Struct/cmake-build-debug"/>
+				<Option working_dir="E:/Cproject/C_algorithm_struct/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/CodeSoft/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CProject/Algorithm_Struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/CodeSoft/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CProject/Algorithm_Struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/CodeSoft/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CProject/Algorithm_Struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/CodeSoft/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CProject/Algorithm_Struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/Cproject/C_algorithm_struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/Cproject/C_algorithm_struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/Cproject/C_algorithm_struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/Cproject/C_algorithm_struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/CProject/Algorithm_Struct/cmake-build-debug"/>
+				<Option working_dir="E:/Cproject/C_algorithm_struct/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/CodeSoft/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CProject/Algorithm_Struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/CodeSoft/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CProject/Algorithm_Struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/CodeSoft/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CProject/Algorithm_Struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/CodeSoft/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CProject/Algorithm_Struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/Cproject/C_algorithm_struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/Cproject/C_algorithm_struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/Cproject/C_algorithm_struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/Cproject/C_algorithm_struct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/CProject/Algorithm_Struct/list/c/list_array.c">
-			<Option target="Algorithm_Struct"/>
+		<Unit filename="E:/Cproject/C_algorithm_struct/list/c/list_array.c">
+			<Option target="C_algorithm_struct"/>
 		</Unit>
-		<Unit filename="D:/CProject/Algorithm_Struct/list/c/list_single_linked.c">
-			<Option target="Algorithm_Struct"/>
+		<Unit filename="E:/Cproject/C_algorithm_struct/list/c/list_single_linked.c">
+			<Option target="C_algorithm_struct"/>
 		</Unit>
-		<Unit filename="D:/CProject/Algorithm_Struct/list/h/list_array.h">
-			<Option target="Algorithm_Struct"/>
+		<Unit filename="E:/Cproject/C_algorithm_struct/list/h/list_array.h">
+			<Option target="C_algorithm_struct"/>
 		</Unit>
-		<Unit filename="D:/CProject/Algorithm_Struct/list/h/list_single_linked.h">
-			<Option target="Algorithm_Struct"/>
+		<Unit filename="E:/Cproject/C_algorithm_struct/list/h/list_single_linked.h">
+			<Option target="C_algorithm_struct"/>
 		</Unit>
-		<Unit filename="D:/CProject/Algorithm_Struct/main.c">
-			<Option target="Algorithm_Struct"/>
+		<Unit filename="E:/Cproject/C_algorithm_struct/main.c">
+			<Option target="C_algorithm_struct"/>
 		</Unit>
-		<Unit filename="D:/CProject/Algorithm_Struct/CMakeLists.txt">
+		<Unit filename="E:/Cproject/C_algorithm_struct/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\CodeSoft\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "E:\codesoft\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\CodeSoft\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "E:\codesoft\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\CProject\Algorithm_Struct
+CMAKE_SOURCE_DIR = E:\Cproject\C_algorithm_struct
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\CProject\Algorithm_Struct\cmake-build-debug
+CMAKE_BINARY_DIR = E:\Cproject\C_algorithm_struct\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = D:\CProject\Algorithm_Struct\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\CodeSoft\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"E:\codesoft\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\CodeSoft\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"E:\codesoft\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CProject\Algorithm_Struct\cmake-build-debug\CMakeFiles D:\CProject\Algorithm_Struct\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cproject\C_algorithm_struct\cmake-build-debug\CMakeFiles E:\Cproject\C_algorithm_struct\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CProject\Algorithm_Struct\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cproject\C_algorithm_struct\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Algorithm_Struct
+# Target rules for targets named C_algorithm_struct
 
 # Build rule for target.
-Algorithm_Struct: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Algorithm_Struct
-.PHONY : Algorithm_Struct
+C_algorithm_struct: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 C_algorithm_struct
+.PHONY : C_algorithm_struct
 
 # fast build rule for target.
-Algorithm_Struct/fast:
-	$(MAKE) -f CMakeFiles\Algorithm_Struct.dir\build.make CMakeFiles/Algorithm_Struct.dir/build
-.PHONY : Algorithm_Struct/fast
+C_algorithm_struct/fast:
+	$(MAKE) -f CMakeFiles\C_algorithm_struct.dir\build.make CMakeFiles/C_algorithm_struct.dir/build
+.PHONY : C_algorithm_struct/fast
 
 list/c/list_array.obj: list/c/list_array.c.obj
 
@@ -128,7 +128,7 @@ list/c/list_array.obj: list/c/list_array.c.obj
 
 # target to build an object file
 list/c/list_array.c.obj:
-	$(MAKE) -f CMakeFiles\Algorithm_Struct.dir\build.make CMakeFiles/Algorithm_Struct.dir/list/c/list_array.c.obj
+	$(MAKE) -f CMakeFiles\C_algorithm_struct.dir\build.make CMakeFiles/C_algorithm_struct.dir/list/c/list_array.c.obj
 .PHONY : list/c/list_array.c.obj
 
 list/c/list_array.i: list/c/list_array.c.i
@@ -137,7 +137,7 @@ list/c/list_array.i: list/c/list_array.c.i
 
 # target to preprocess a source file
 list/c/list_array.c.i:
-	$(MAKE) -f CMakeFiles\Algorithm_Struct.dir\build.make CMakeFiles/Algorithm_Struct.dir/list/c/list_array.c.i
+	$(MAKE) -f CMakeFiles\C_algorithm_struct.dir\build.make CMakeFiles/C_algorithm_struct.dir/list/c/list_array.c.i
 .PHONY : list/c/list_array.c.i
 
 list/c/list_array.s: list/c/list_array.c.s
@@ -146,7 +146,7 @@ list/c/list_array.s: list/c/list_array.c.s
 
 # target to generate assembly for a file
 list/c/list_array.c.s:
-	$(MAKE) -f CMakeFiles\Algorithm_Struct.dir\build.make CMakeFiles/Algorithm_Struct.dir/list/c/list_array.c.s
+	$(MAKE) -f CMakeFiles\C_algorithm_struct.dir\build.make CMakeFiles/C_algorithm_struct.dir/list/c/list_array.c.s
 .PHONY : list/c/list_array.c.s
 
 list/c/list_single_linked.obj: list/c/list_single_linked.c.obj
@@ -155,7 +155,7 @@ list/c/list_single_linked.obj: list/c/list_single_linked.c.obj
 
 # target to build an object file
 list/c/list_single_linked.c.obj:
-	$(MAKE) -f CMakeFiles\Algorithm_Struct.dir\build.make CMakeFiles/Algorithm_Struct.dir/list/c/list_single_linked.c.obj
+	$(MAKE) -f CMakeFiles\C_algorithm_struct.dir\build.make CMakeFiles/C_algorithm_struct.dir/list/c/list_single_linked.c.obj
 .PHONY : list/c/list_single_linked.c.obj
 
 list/c/list_single_linked.i: list/c/list_single_linked.c.i
@@ -164,7 +164,7 @@ list/c/list_single_linked.i: list/c/list_single_linked.c.i
 
 # target to preprocess a source file
 list/c/list_single_linked.c.i:
-	$(MAKE) -f CMakeFiles\Algorithm_Struct.dir\build.make CMakeFiles/Algorithm_Struct.dir/list/c/list_single_linked.c.i
+	$(MAKE) -f CMakeFiles\C_algorithm_struct.dir\build.make CMakeFiles/C_algorithm_struct.dir/list/c/list_single_linked.c.i
 .PHONY : list/c/list_single_linked.c.i
 
 list/c/list_single_linked.s: list/c/list_single_linked.c.s
@@ -173,7 +173,7 @@ list/c/list_single_linked.s: list/c/list_single_linked.c.s
 
 # target to generate assembly for a file
 list/c/list_single_linked.c.s:
-	$(MAKE) -f CMakeFiles\Algorithm_Struct.dir\build.make CMakeFiles/Algorithm_Struct.dir/list/c/list_single_linked.c.s
+	$(MAKE) -f CMakeFiles\C_algorithm_struct.dir\build.make CMakeFiles/C_algorithm_struct.dir/list/c/list_single_linked.c.s
 .PHONY : list/c/list_single_linked.c.s
 
 main.obj: main.c.obj
@@ -182,7 +182,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) -f CMakeFiles\Algorithm_Struct.dir\build.make CMakeFiles/Algorithm_Struct.dir/main.c.obj
+	$(MAKE) -f CMakeFiles\C_algorithm_struct.dir\build.make CMakeFiles/C_algorithm_struct.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -191,7 +191,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles\Algorithm_Struct.dir\build.make CMakeFiles/Algorithm_Struct.dir/main.c.i
+	$(MAKE) -f CMakeFiles\C_algorithm_struct.dir\build.make CMakeFiles/C_algorithm_struct.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -200,7 +200,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles\Algorithm_Struct.dir\build.make CMakeFiles/Algorithm_Struct.dir/main.c.s
+	$(MAKE) -f CMakeFiles\C_algorithm_struct.dir\build.make CMakeFiles/C_algorithm_struct.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -209,7 +209,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... Algorithm_Struct
+	@echo ... C_algorithm_struct
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... list/c/list_array.obj
