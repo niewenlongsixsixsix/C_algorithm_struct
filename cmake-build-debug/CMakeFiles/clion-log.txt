@@ -1,4 +1,0 @@
-"E:\codesoft\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\Cproject\C_algorithm_struct
--- Configuring done
--- Generating done
--- Build files have been written to: E:/Cproject/C_algorithm_struct/cmake-build-debug

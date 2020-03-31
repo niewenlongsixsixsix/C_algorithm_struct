@@ -1,3 +1,0 @@
-E:/Cproject/C_algorithm_struct/cmake-build-debug/CMakeFiles/C_algorithm_struct.dir
-E:/Cproject/C_algorithm_struct/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/Cproject/C_algorithm_struct/cmake-build-debug/CMakeFiles/rebuild_cache.dir
