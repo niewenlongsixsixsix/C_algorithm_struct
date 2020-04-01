@@ -13,7 +13,7 @@ void InitList(pList p) {
 }
 
 /**
- * Insert a value in List.
+ * Insert a value into the List.
  * @param p
  * @param i
  * @param e
